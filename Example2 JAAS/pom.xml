@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.tomcat</groupId>
+  <artifactId>tomcat</artifactId>
+  <version>9.0.0.M1</version>
+  <description>Binary distribution of Apache Tomcat</description>
+  <url>http://tomcat.apache.org/</url>
+  <packaging>pom</packaging>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <!-- <username>tgour153</username>  <password>bBzI35NKnh</password>
+  <url>https://sharednl.buxar-host.eu:2083</url>-->
+  <server>sharednl.buxar-host.eu</server>
+  <path>/sss</path>
+
+
+
+  <dependencies>
+  <dependency>
+
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat</artifactId>
+    <version>9.0.0.M1</version>
+
+
+  </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+
+      <scope>provided</scope>
+    </dependency>
+
+  <dependency>
+    <groupId>javax</groupId>
+    <artifactId>javaee-api</artifactId>
+    <version>7.0</version>
+  </dependency>
+</dependencies>
+<build>
+<finalName>12</finalName>
+</build>
+</project>
+
+
+
